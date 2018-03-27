@@ -49,7 +49,7 @@ Open http://localhost:3000 in the browser.
 
 ## Developing with the Electron example
 
-Start watching of the hello world extension.
+Start watching of the environment variables extension.
 
     cd env-variables-extension
     yarn watch
