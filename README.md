@@ -1,5 +1,5 @@
 # Environment Variables Extension 
-Server extension to get array environment variables or get environment variable value by key.
+Server extension to get array of environment variables or get environment variable value by key.
 
 ## Getting started
 

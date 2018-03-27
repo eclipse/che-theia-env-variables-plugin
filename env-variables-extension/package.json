@@ -13,6 +13,14 @@
       "email": "oandriie@redhat.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse/che-theia-env-variables-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eclipse/che-theia-env-variables-plugin/issues"
+  },
+  "homepage": "https://github.com/eclipse/che-theia-env-variables-plugin",
   "files": [
     "lib",
     "src"
