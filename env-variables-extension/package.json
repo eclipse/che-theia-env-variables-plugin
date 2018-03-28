@@ -1,0 +1,48 @@
+{
+  "name": "env-variables-extension",
+  "keywords": [
+    "theia-extension",
+    "che",
+    "environment"
+  ],
+  "description": "Theia - Environment Variables Extension",
+  "version": "0.0.0",
+  "contributors": [
+    {
+      "name": "Oleksandr Andriienko",
+      "email": "oandriie@redhat.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse/che-theia-env-variables-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eclipse/che-theia-env-variables-plugin/issues"
+  },
+  "homepage": "https://github.com/eclipse/che-theia-env-variables-plugin",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "0.3.7"
+  },
+  "devDependencies": {
+    "typescript": "2.7.2",
+    "rimraf": "2.6.2"
+  },
+  "license": "EPL-1.0",
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/env-variables-frontend-module",
+      "backend": "lib/node/env-variables-backend-module"
+    }
+  ]
+}
