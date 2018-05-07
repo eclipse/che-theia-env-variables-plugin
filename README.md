@@ -1,3 +1,9 @@
+# Deprecated
+
+This feature has been merged in Theia IDE:
+https://github.com/theia-ide/theia/pull/1650/files
+
+
 # Environment Variables Extension 
 Server extension to get array of environment variables or get environment variable value by key.
 
